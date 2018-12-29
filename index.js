@@ -6,13 +6,13 @@ const crypto = require('crypto');
 const md5 = crypto.createHash('md5');
 
 const pObj = {
-  print(data = '') {
+  print(data) {
     if (data !== '') {console.log(data)}
     return this;
   },
   line() {console.log('---------------------------------')}
 }
-function print(data) {return pObj.print(data)}
+function print(data = '') {return pObj.print(data)}
 
 class Translate {
   constructor() {
@@ -49,7 +49,7 @@ class Translate {
 
       res.on('end', () => {
         const data = JSON.parse(bodyData);
-        const {web, basic, translation, l} = data;
+        const {web, basic, translation = [], l} = data;
     
         print(this.argsStr).line();
 
