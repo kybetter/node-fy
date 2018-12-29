@@ -9,5 +9,13 @@
   },
   "bin": {
     "fy": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/kybetter/node-fy/issues",
+    "email": "kybetter@163.com"
+  },
+  "homepage": "https://github.com/kybetter/node-fy",
+  "engines": {
+    "node": ">=8.12.0"
   }
 }
