@@ -3,6 +3,7 @@
   "version": "1.0.5",
   "main": "index.js",
   "license": "MIT",
+  "keywords": ["cli-translate","translate","有道翻译","命令行翻译"],
   "repository": {
     "type": "git",
     "url": "https://github.com/kybetter/node-fy.git"
