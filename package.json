@@ -14,7 +14,7 @@
     "url": "https://github.com/kybetter/node-fy.git"
   },
   "bin": {
-    "fy": "./index.js"
+    "fy": "index.js"
   },
   "bugs": {
     "url": "https://github.com/kybetter/node-fy/issues",
@@ -23,5 +23,9 @@
   "homepage": "https://github.com/kybetter/node-fy",
   "engines": {
     "node": ">=8.12.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "chalk": "^2.4.2"
   }
 }
