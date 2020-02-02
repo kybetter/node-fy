@@ -1,0 +1,10 @@
+{
+  "baidu": {
+    "appid": "",
+    "key": ""
+  },
+  "youdao": {
+    "appKey": "",
+    "secKey": ""
+  }
+}
