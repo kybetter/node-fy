@@ -14,7 +14,7 @@
     "url": "https://github.com/kybetter/node-fy.git"
   },
   "bin": {
-    "fy": "index.js"
+    "fy": "main.js"
   },
   "bugs": {
     "url": "https://github.com/kybetter/node-fy/issues",
